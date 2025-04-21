@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio das imagens</title>
+</head>
+<body>
+    <h1>imagem flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aprobeitar a melhor experiencia.</p>
+    <picture>
+        <source media="(max-width:700px)" srcset="src/imagem-cachorro3.jpg" type="image/png">
+        <source media="(max-width:1000px)" srcset="src/imagem-cachorro2.jpg" type="image/png">
+        <img src="src/imagem-cachorro1.jpg" alt="imagem cachorro">
+    </picture>
+</body>
+</html>
